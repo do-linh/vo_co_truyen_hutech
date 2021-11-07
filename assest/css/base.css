@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --nav-color: #ffaa4f;
+    --color-2: #e9f2de;
+    --color-3: #b6e6a6;
+    --color-4: #99dcf6;
+    --color-5: #97d6f4;
+    --color-6: #3aadaa;
+    --color-7: #ff7f00;
+    --black-color: #212121;
+    --footer-color: #383e45;
+    --footer-bottom: #30353b;
+    --white-color: #fff;
+    --primary-color: #2caee2;
+    --text-color: #5e5d5d;
+    --style-color: #e56d3f;
+    --gray-color: #f3f7f3;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.col-3 {
+    width: 33.33%;
+    float: left;
+}
+
+.col-4 {
+    min-width: 25%;
+}
+
+.col {
+    float: right;
+}
+
+.col-left {
+    float: left;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+img {
+    margin: 0 !important;
+    padding: 1px;
+}
