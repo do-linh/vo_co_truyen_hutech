@@ -182,6 +182,7 @@ svg {
 .content__intro-box {
     display: flex;
     padding-left: 10px;
+    height: 200px;
 }
 
 .content__intro-hour {
